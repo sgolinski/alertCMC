@@ -333,8 +333,8 @@ file_put_contents('last_round.coins.txt', serialize($crawler->returnArray));
 $alertCoins = Crawler::removeDuplicates($crawler->returnArray, $lastRoundCoins);
 foreach ($lastRoundCoins as $alerts) {
 
-//    $message = new Message();
-//    $message->setText($alerts);
-//    $this->slack->sendMessage($message);
-    echo $alerts;
+    $message = new Message();
+    $message->setText($alerts);
+    $message->setText($alerts);
+    $this->slack->sendMessage($message);
 }
