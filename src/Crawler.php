@@ -27,7 +27,6 @@ class Crawler
         $percent = $this->client->getCrawler()
             ->filter('div.sc-16r8icm-0.kjciSH.priceTitle')
             ->getText();
-        $this->client->quit();
         return $percent;
     }
 
@@ -51,5 +50,10 @@ class Crawler
         } else {
             return $arr1;
         }
+    }
+
+    public function getClient()
+    {
+        return $this->client;
     }
 }
