@@ -2,10 +2,6 @@
 
 namespace alertCMC;
 
-use ArrayIterator;
-use Exception;
-use Facebook\WebDriver\Remote\RemoteWebElement;
-use Facebook\WebDriver\WebDriverBy;
 use Symfony\Component\Panther\Client as PantherClient;
 
 class Crawler
