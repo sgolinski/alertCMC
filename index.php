@@ -13,7 +13,6 @@ $arr = [
     "https://coinmarketcap.com/currencies/extradna/                                ",
     "https://coinmarketcap.com/currencies/netbox-coin/                             ",
     "https://coinmarketcap.com/currencies/cue-protocol/                            ",
-    "https://coinmarketcap.com/currencies/landbox/                                 ",
     "https://coinmarketcap.com/currencies/bscview/                                 ",
     "https://coinmarketcap.com/currencies/bishares/                                ",
     "https://coinmarketcap.com/currencies/zcore/                                   ",
@@ -316,13 +315,17 @@ $lastRoundCoins = unserialize(file_get_contents('last_round_coins.txt'));
 if (empty($lastRoundCoins)) {
     $lastRoundCoins = [];
 }
+shuffle($arr);
 foreach ($arr as $coin) {
     $data = $crawler->assignDetailInformationToCoin(trim($coin));
     $percent = floatval(explode("\n", $data)[1]);
 
     if ($percent > 20.0) {
         if (!array_search($coin, $lastRoundCoins)) {
-            $crawler->returnArray[] = $coin;
+            $message = new Message();
+            $message->setText($coin);
+            $slack->sendMessage($message);
+            $crawler->returnArray[] = trim($coin);
         }
     }
 }
@@ -331,10 +334,3 @@ $crawler->getClient()->quit();
 file_put_contents('last_round.coins.txt', serialize($crawler->returnArray));
 
 $alertCoins = Crawler::removeDuplicates($crawler->returnArray, $lastRoundCoins);
-foreach ($lastRoundCoins as $alerts) {
-
-    $message = new Message();
-    $message->setText($alerts);
-    $message->setText($alerts);
-    $this->slack->sendMessage($message);
-}

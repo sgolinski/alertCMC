@@ -38,12 +38,12 @@ class Crawler
             foreach ($arr1 as $coin) {
                 $notUnique = false;
                 foreach ($arr2 as $coin2) {
-                    if ($coin == $coin2) {
+                    if (trim($coin) == trim($coin2)) {
                         $notUnique = true;
                     }
                 }
                 if (!$notUnique) {
-                    $uniqueArray[] = $coin;
+                    $uniqueArray[] = trim($coin);
                 }
             }
             return $uniqueArray;
