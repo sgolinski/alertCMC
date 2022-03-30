@@ -317,16 +317,23 @@ if (empty($lastRoundCoins)) {
 }
 shuffle($arr);
 foreach ($arr as $coin) {
-    $data = $crawler->assignDetailInformationToCoin(trim($coin));
-    $percent = floatval(explode("\n", $data)[1]);
+    try {
 
-    if ($percent > 20.0) {
-        if (!array_search($coin, $lastRoundCoins)) {
-            $message = new Message();
-            $message->setText($coin);
-            $slack->sendMessage($message);
-            $crawler->returnArray[] = trim($coin);
+
+        $data = $crawler->assignDetailInformationToCoin(trim($coin));
+        $percent = floatval(explode("\n", $data)[1]);
+
+        if ($percent > 20.0) {
+            if (!array_search($coin, $lastRoundCoins)) {
+                $message = new Message();
+                $message->setText($coin);
+                $slack->sendMessage($message);
+                $crawler->returnArray[] = trim($coin);
+            }
         }
+    } catch (Exception $e) {
+        $crawler->getClient()->quit();
+        continue;
     }
 }
 $crawler->getClient()->quit();

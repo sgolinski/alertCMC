@@ -18,6 +18,9 @@ class Crawler
 
     public function assignDetailInformationToCoin($link)
     {
+        if ($this->client == null) {
+            $this->client = PantherClient::createChromeClient();
+        }
         $this->client->refreshCrawler();
         $this->client->get($link);
         $percent = $this->client->getCrawler()
