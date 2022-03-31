@@ -311,7 +311,7 @@ $crawler = new Crawler();
 
 $slack = new SlackClient('https://hooks.slack.com/services/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');;
 
-$lastRoundCoins = unserialize(file_get_contents('last_round_coins.txt'));
+$lastRoundCoins = unserialize(file_get_contents('last_rounded_coins.txt'));
 if (empty($lastRoundCoins)) {
     $lastRoundCoins = [];
 }
@@ -338,6 +338,6 @@ foreach ($arr as $coin) {
 }
 $crawler->getClient()->quit();
 
-file_put_contents('last_round.coins.txt', serialize($crawler->returnArray));
+file_put_contents('last_rounded_coins.txt', serialize($crawler->returnArray));
 
 $alertCoins = Crawler::removeDuplicates($crawler->returnArray, $lastRoundCoins);
