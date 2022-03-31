@@ -315,6 +315,9 @@ $lastRoundCoins = unserialize(file_get_contents('last_rounded_coins.txt'));
 if (empty($lastRoundCoins)) {
     $lastRoundCoins = [];
 }
+
+$alertCoins = Crawler::removeDuplicates($crawler->returnArray, $lastRoundCoins);
+
 shuffle($arr);
 foreach ($arr as $coin) {
     try {
@@ -324,7 +327,7 @@ foreach ($arr as $coin) {
         $percent = floatval(explode("\n", $data)[1]);
 
         if ($percent > 20.0) {
-            if (!array_search($coin, $lastRoundCoins)) {
+            if (!array_search($coin, $alertCoins)) {
                 $message = new Message();
                 $message->setText($coin);
                 $slack->sendMessage($message);
@@ -340,4 +343,4 @@ $crawler->getClient()->quit();
 
 file_put_contents('last_rounded_coins.txt', serialize($crawler->returnArray));
 
-$alertCoins = Crawler::removeDuplicates($crawler->returnArray, $lastRoundCoins);
+
