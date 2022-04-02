@@ -79,13 +79,15 @@ class Crawler
         if (!empty($arr2)) {
             foreach ($arr1 as $coin) {
                 $notUnique = false;
+                assert($coin instanceof Coin);
                 foreach ($arr2 as $coin2) {
-                    if (trim($coin) == trim($coin2)) {
+                    assert($coin2 instanceof Coin);
+                    if (trim($coin->getName()) == trim($coin2->getName())) {
                         $notUnique = true;
                     }
                 }
                 if (!$notUnique) {
-                    $uniqueArray[] = trim($coin);
+                    $uniqueArray[] = $coin;
                 }
             }
             return $uniqueArray;
@@ -121,8 +123,6 @@ class Crawler
 
 
             return [$name, $address, $percent];
-
-
         }
 
     }
