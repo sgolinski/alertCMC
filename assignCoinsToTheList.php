@@ -1,5 +1,6 @@
 <?php
 
+use alertCMC\Coin;
 use alertCMC\Crawler;
 use Maknz\Slack\Client as SlackClient;
 use Maknz\Slack\Message;
@@ -311,41 +312,16 @@ $crawler = new Crawler();
 
 $slack = new SlackClient('https://hooks.slack.com/services/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');;
 
-$lastRoundCoins = unserialize(file_get_contents('last_rounded_coins.txt'));
-if (empty($lastRoundCoins)) {
-    $lastRoundCoins = [];
-}
-
-$alertCoins = Crawler::removeDuplicates($crawler->returnArray, $lastRoundCoins);
-
-shuffle($arr);
 foreach ($arr as $coin) {
-    try {
-        $data = $crawler->assignDetailInformationToCoin(trim($coin));
-
-        if ($data[0]) {
-            $percent = '-' . explode("\n", $data[1])[1];
-        } else {
-            $percent = explode("\n", $data[1])[1];
-        }
-        $percent = floatval($percent);
-
-        if ($percent < -30.0) {
-            if (!array_search($coin, $alertCoins)) {
-                $message = new Message();
-                $message->setText($coin);
-                $slack->sendMessage($message);
-                $crawler->returnArray[] = trim($coin);
-
-            }
-        }
-    } catch (Exception $e) {
-        $crawler->getClient()->quit();
-        continue;
+    $data = $crawler->assignAddressAndNameToCoin(trim($coin));
+    if ($data[0] && $data[1] && $data[2]) {
+        $token = new Coin($data[0], $data[2], $data[1]);
+        $crawler->returnArray[] = $token;
     }
 }
 $crawler->getClient()->quit();
 
-file_put_contents('last_rounded_coins.txt', serialize($crawler->returnArray));
+//file_put_contents('last_rounded_coins.txt', serialize($crawler->returnArray));
+file_put_contents('newList.txt', serialize($crawler->returnArray));
 
 
