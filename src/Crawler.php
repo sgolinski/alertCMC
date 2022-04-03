@@ -15,7 +15,7 @@ class Crawler
 
     public function __construct()
     {
-        $this->client = PantherClient::createChromeClient();
+        $this->client = PantherClientSingleton::getChromeClient();
         $this->returnArray = [];
 
     }
@@ -99,7 +99,6 @@ class Crawler
 
     public function assignAddressAndNameToCoin($link)
     {
-
         try {
             $this->client->refreshCrawler();
             $this->client->get($link);

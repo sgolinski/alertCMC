@@ -3,7 +3,7 @@
 use alertCMC\Coin;
 use alertCMC\Crawler;
 use Maknz\Slack\Client as SlackClient;
-use Maknz\Slack\Message;
+
 
 require __DIR__ . '/vendor/autoload.php'; // Composer's autoloader
 
@@ -24,7 +24,7 @@ foreach ($arr as $coin) {
 }
 $crawler->getClient()->quit();
 
-//file_put_contents('last_rounded_coins.txt', serialize($crawler->returnArray));
+
 file_put_contents('newList.txt', serialize($crawler->returnArray));
 
 

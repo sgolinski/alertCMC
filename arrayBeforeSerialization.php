@@ -296,6 +296,10 @@ return [
     "https://coinmarketcap.com/currencies/cub-finance/                             ",
     "https://coinmarketcap.com/currencies/monster-galaxy/                          ",
     "https://coinmarketcap.com/currencies/jojo/                                    ",
+    "https://coinmarketcap.com/currencies/ltradex/          ",
+    "https://coinmarketcap.com/currencies/block-ape-scissors/    ",
+    "https://coinmarketcap.com/currencies/teddydoge/             ",
+    "https://coinmarketcap.com/currencies/topmanager/            ",
 
 
 ];

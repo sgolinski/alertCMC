@@ -1,4 +1,4 @@
-a:292:{i:0;O:13:"alertCMC\Coin":6:{s:4:"name";s:11:"9D NFT
+a:296:{i:0;O:13:"alertCMC\Coin":6:{s:4:"name";s:11:"9D NFT
 COGI";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x6cb755c4b82e11e727c05f697c790fdbc4253957";}i:1;O:13:"alertCMC\Coin":6:{s:4:"name";s:11:"Fluity
 FLTY";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x83b325dbA77d55644619a4Ff29D42EE4487BCf31";}i:2;O:13:"alertCMC\Coin":6:{s:4:"name";s:14:"Birdchain
 BIRD";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:69:"https://etherscan.io/token/0x026e62dded1a6ad07d93d39f96b9eabd59665e0d";}i:3;O:13:"alertCMC\Coin":6:{s:4:"name";s:26:"Open Governance Token
@@ -290,4 +290,8 @@ MCRN";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1
 BXH";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:69:"https://etherscan.io/token/0xEb637A9Ab6Be83c7F8c79fdAA62E1043b65534F0";}i:289;O:13:"alertCMC\Coin":6:{s:4:"name";s:9:"Birb
 BIRB";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x82a479264b36104be4fdb91618a59a4fc0f50650";}i:290;O:13:"alertCMC\Coin":6:{s:4:"name";s:15:"Cub Finance
 CUB";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1";}i:291;O:13:"alertCMC\Coin":6:{s:4:"name";s:9:"JOJO
-JOJO";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x78a499a998bdd5a84cf8b5abe49100d82de12f1c";}}
+JOJO";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x78a499a998bdd5a84cf8b5abe49100d82de12f1c";}i:292;O:13:"alertCMC\Coin":6:{s:4:"name";s:12:"Ltradex
+LTEX";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0xbcb3ac7a3ceb2d0c5e162a03901d6d7bb8602912";}i:293;O:13:"alertCMC\Coin":6:{s:4:"name";s:22:"Block Ape Scissors
+BAS";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x8ddeec6b677c7c552c9f3563b99e4ff90b862ebc";}i:294;O:13:"alertCMC\Coin":6:{s:4:"name";s:16:"Teddy Doge
+TEDDY";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x10f6f2b97f3ab29583d9d38babf2994df7220c21";}i:295;O:13:"alertCMC\Coin":6:{s:4:"name";s:14:"TopManager
+TMT";s:5:"price";s:0:"";s:7:"percent";d:0;s:6:"mainet";s:0:"";s:7:"address";s:1:" ";s:7:"cmcLink";s:68:"https://bscscan.com/token/0x4803ac6b79f9582f69c4fa23c72cb76dd1e46d8d";}}

@@ -9,22 +9,20 @@ require __DIR__ . '/vendor/autoload.php'; // Composer's autoloader
 
 header("Content-Type: text/plain");
 
-// list of coinds which are filtered to get information
 $serializedList = require 'serializedList.php';
 $serializedList = unserialize($serializedList);
-
 
 $crawler = new Crawler();
 $slack = new SlackClient('https://hooks.slack.com/services/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');;
 
 $lastRoundCoins = file_get_contents('last_rounded_coins.txt');
+
 if (empty($lastRoundCoins)) {
     $lastRoundCoins = [];
 } else {
     unserialize($lastRoundCoins);
     shuffle($arr);
 }
-$alertCoins = Crawler::removeDuplicates($crawler->returnArray, $lastRoundCoins);
 
 foreach ($serializedList as $coin) {
     try {
