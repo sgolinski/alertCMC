@@ -34,16 +34,6 @@ class Coin
         return $this->percent;
     }
 
-    public function getMainet(): string
-    {
-        return $this->mainet;
-    }
-
-    public function setMainet(string $mainet): void
-    {
-        $this->mainet = $mainet;
-    }
-
     public function getAddress(): string
     {
         return $this->address;
@@ -64,11 +54,16 @@ class Coin
 
         $poocoin = str_replace("https://bscscan.com/token/", "https://poocoin.app/tokens/", $this->getAddress());
         return "Name: " . $this->getName() . PHP_EOL .
-            "Drop percent: -" . $this->getPercent() . '%' . PHP_EOL .
+            "Drop percent: " . $this->getPercent() . '%' . PHP_EOL .
             "Cmc: " . $this->getCmcLink() . PHP_EOL .
             "Poocoin:  " . $poocoin . PHP_EOL;
 
 
+    }
+
+    public function setPercent(float $percent)
+    {
+        $this->percent = $percent;
     }
 
 }
