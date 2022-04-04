@@ -44,8 +44,6 @@ foreach ($serializedList as $coin) {
         continue;
     }
 }
-$crawler->getClient()->quit();
-
 $alertCoins = Crawler::removeDuplicates($crawler->returnArray, $lastRoundCoins);
 
 foreach ($alertCoins as $coin) {

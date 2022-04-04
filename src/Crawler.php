@@ -13,6 +13,7 @@ class Crawler
     private PantherClient $client;
     public $returnArray;
 
+
     public function __construct()
     {
         $this->client = PantherClientSingleton::getChromeClient();
