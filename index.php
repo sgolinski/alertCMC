@@ -9,7 +9,7 @@ require __DIR__ . '/vendor/autoload.php'; // Composer's autoloader
 
 header("Content-Type: text/plain");
 
-$serializedList = require 'serializedList1200_1500.php';
+$serializedList = require 'serializedList1500_1700.php';
 $serializedList = unserialize($serializedList);
 
 $crawler = new Crawler();
