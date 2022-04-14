@@ -17,8 +17,9 @@ $slack = new SlackClient('https://hooks.slack.com/services/T0315SMCKTK/B03160VKM
 
 foreach ($arr as $coin) {
     $data = $crawler->assignAddressAndNameToCoin(trim($coin));
+    $coin = trim($coin);
     if ($data[0] && $data[1] && $data[2]) {
-        $token = new Coin($data[0], $data[2], $data[1]);
+        $token = new Coin($data[0], $data[2], $coin, $data[1]);
         $crawler->returnArray[] = $token;
     }
 }

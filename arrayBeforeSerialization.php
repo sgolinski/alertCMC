@@ -1,36 +1,352 @@
 <?php
 
 return [
-    "https://coinmarketcap.com/currencies/titano/                              ",
-    "https://coinmarketcap.com/currencies/bitcoin-metaverse/                        ",
-    "https://coinmarketcap.com/currencies/gamefi/                                   ",
-    "https://coinmarketcap.com/currencies/defina-finance/                           ",
-    "https://coinmarketcap.com/currencies/h2o-dao/                                  ",
-    "https://coinmarketcap.com/currencies/topmanager/                               ",
-    "https://coinmarketcap.com/currencies/teddydoge/                                ",
-    "https://coinmarketcap.com/currencies/ltradex/                                  ",
-    "https://coinmarketcap.com/currencies/block-ape-scissors/                       ",
-    "https://coinmarketcap.com/currencies/xcel-swap/                                ",
-    "https://coinmarketcap.com/currencies/safemoon-v2/                              ",
-    "https://coinmarketcap.com/currencies/starsharks-sss/                           ",
-    "https://coinmarketcap.com/currencies/green-metaverse-token/                    ",
-    "https://coinmarketcap.com/currencies/zilliqa/                                  ",
-    "https://coinmarketcap.com/currencies/biswap/                                   ",
-    "https://coinmarketcap.com/currencies/binaryx/                                  ",
-    "https://coinmarketcap.com/currencies/metadoctor/                               ",
-    "https://coinmarketcap.com/currencies/mobox/                                    ",
-    "https://coinmarketcap.com/currencies/near-protocol/                            ",
-    "https://coinmarketcap.com/currencies/outer-ring-mmo-gq/                        ",
-    "https://coinmarketcap.com/currencies/xcarnival/                                ",
-    "https://coinmarketcap.com/currencies/wirtual/                                  ",
-    "https://coinmarketcap.com/currencies/spacepi/                                  ",
-    "https://coinmarketcap.com/currencies/bakerytoken/                              ",
-    "https://coinmarketcap.com/currencies/milo-inu/                                 ",
-    "https://coinmarketcap.com/currencies/adadao/                                   ",
-    "https://coinmarketcap.com/currencies/ellipsis/                                 ",
-    "https://coinmarketcap.com/currencies/mrweb-finance/                            ",
-    "https://coinmarketcap.com/currencies/silva-token/                              ",
-    "https://coinmarketcap.com/currencies/metaverse-all-best-ico/                   ",
+    "https://coinmarketcap.com/currencies/titano/                               ",
+    "https://coinmarketcap.com/currencies/rmrk/                                     ",
+    "https://coinmarketcap.com/currencies/hard-protocol/                            ",
+    "https://coinmarketcap.com/currencies/butterflydao/                             ",
+    "https://coinmarketcap.com/currencies/kadena/                                   ",
+    "https://coinmarketcap.com/currencies/radicle/                                  ",
+    "https://coinmarketcap.com/currencies/truefi-token/                             ",
+    "https://coinmarketcap.com/currencies/atletico-de-madrid-fan-token/             ",
+    "https://coinmarketcap.com/currencies/centrality/                               ",
+    "https://coinmarketcap.com/currencies/frax-share/                               ",
+    "https://coinmarketcap.com/currencies/3x-long-bitcoin-token/                    ",
+    "https://coinmarketcap.com/currencies/ethereum-name-service/                    ",
+    "https://coinmarketcap.com/currencies/manchester-city-fan-token/                ",
+    "https://coinmarketcap.com/currencies/zyro/                                     ",
+    "https://coinmarketcap.com/currencies/wrapped-ncg/                              ",
+    "https://coinmarketcap.com/currencies/constitutiondao/                          ",
+    "https://coinmarketcap.com/currencies/mx-token/                                 ",
+    "https://coinmarketcap.com/currencies/marlin/                                   ",
+    "https://coinmarketcap.com/currencies/platypus-finance/                         ",
+    "https://coinmarketcap.com/currencies/joe/                                      ",
+    "https://coinmarketcap.com/currencies/anchor-protocol/                          ",
+    "https://coinmarketcap.com/currencies/ecash/                                    ",
+    "https://coinmarketcap.com/currencies/dao-maker/                                ",
+    "https://coinmarketcap.com/currencies/stargate-finance/                         ",
+    "https://coinmarketcap.com/currencies/synthetix-network-token/                  ",
+    "https://coinmarketcap.com/currencies/defi-kingdoms/                            ",
+    "https://coinmarketcap.com/currencies/aragon/                                   ",
+    "https://coinmarketcap.com/currencies/valencia-cf-fan-token/                    ",
+    "https://coinmarketcap.com/currencies/arweave/                                  ",
+    "https://coinmarketcap.com/currencies/troy/                                     ",
+    "https://coinmarketcap.com/currencies/vidya/                                    ",
+    "https://coinmarketcap.com/currencies/akropolis/                                ",
+    "https://coinmarketcap.com/currencies/boba-network/                             ",
+    "https://coinmarketcap.com/currencies/ankr/                                     ",
+    "https://coinmarketcap.com/currencies/perpetual-protocol/                       ",
+    "https://coinmarketcap.com/currencies/dogecoin/                                 ",
+    "https://coinmarketcap.com/currencies/shiba-inu/                                ",
+    "https://coinmarketcap.com/currencies/lto-network/                              ",
+    "https://coinmarketcap.com/currencies/step-finance/                             ",
+    "https://coinmarketcap.com/currencies/kishu-inu/                                ",
+    "https://coinmarketcap.com/currencies/hex/                                      ",
+    "https://coinmarketcap.com/currencies/apecoin-ape/                              ",
+    "https://coinmarketcap.com/currencies/mdex/                                     ",
+    "https://coinmarketcap.com/currencies/dogelon/                                  ",
+    "https://coinmarketcap.com/currencies/request/                                  ",
+    "https://coinmarketcap.com/currencies/pundix-new/                               ",
+    "https://coinmarketcap.com/currencies/based-finance/                            ",
+    "https://coinmarketcap.com/currencies/filecoin/                                 ",
+    "https://coinmarketcap.com/currencies/irisnet/                                  ",
+    "https://coinmarketcap.com/currencies/ethernity-chain/                          ",
+    "https://coinmarketcap.com/currencies/newscrypto/                               ",
+    "https://coinmarketcap.com/currencies/conflux-network/                          ",
+    "https://coinmarketcap.com/currencies/safuu/                                    ",
+    "https://coinmarketcap.com/currencies/mithril/                                  ",
+    "https://coinmarketcap.com/currencies/hot-cross/                                ",
+    "https://coinmarketcap.com/currencies/dexe/                                     ",
+    "https://coinmarketcap.com/currencies/ren/                                      ",
+    "https://coinmarketcap.com/currencies/gitcoin/                                  ",
+    "https://coinmarketcap.com/currencies/contentos/                                ",
+    "https://coinmarketcap.com/currencies/santos-fc-fan-token/                      ",
+    "https://coinmarketcap.com/currencies/kunci-coin/                               ",
+    "https://coinmarketcap.com/currencies/fc-barcelona-fan-token/                   ",
+    "https://coinmarketcap.com/currencies/valor-token/                              ",
+    "https://coinmarketcap.com/currencies/juventus-fan-token/                       ",
+    "https://coinmarketcap.com/currencies/as-roma-fan-token/                        ",
+    "https://coinmarketcap.com/currencies/yearn-finance/                            ",
+    "https://coinmarketcap.com/currencies/adx-net/                                  ",
+    "https://coinmarketcap.com/currencies/enzyme/                                   ",
+    "https://coinmarketcap.com/currencies/telcoin/                                  ",
+    "https://coinmarketcap.com/currencies/tranchess/                                ",
+    "https://coinmarketcap.com/currencies/umee/                                     ",
+    "https://coinmarketcap.com/currencies/internet-computer/                        ",
+    "https://coinmarketcap.com/currencies/theta-network/                            ",
+    "https://coinmarketcap.com/currencies/iostoken/                                 ",
+    "https://coinmarketcap.com/currencies/axie-infinity/                            ",
+    "https://coinmarketcap.com/currencies/arpa-chain/                               ",
+    "https://coinmarketcap.com/currencies/tellor/                                   ",
+    "https://coinmarketcap.com/currencies/iotex/                                    ",
+    "https://coinmarketcap.com/currencies/dodo/                                     ",
+    "https://coinmarketcap.com/currencies/unifi-protocol-dao/                       ",
+    "https://coinmarketcap.com/currencies/holo/                                     ",
+    "https://coinmarketcap.com/currencies/bella-protocol/                           ",
+    "https://coinmarketcap.com/currencies/nkn/                                      ",
+    "https://coinmarketcap.com/currencies/metal/                                    ",
+    "https://coinmarketcap.com/currencies/tomochain/                                ",
+    "https://coinmarketcap.com/currencies/cartesi/                                  ",
+    "https://coinmarketcap.com/currencies/yield-guild-games/                        ",
+    "https://coinmarketcap.com/currencies/eth-2x-flexible-leverage-index/           ",
+    "https://coinmarketcap.com/currencies/safepal/                                  ",
+    "https://coinmarketcap.com/currencies/balancer/                                 ",
+    "https://coinmarketcap.com/currencies/civic/                                    ",
+    "https://coinmarketcap.com/currencies/hunt/                                     ",
+    "https://coinmarketcap.com/currencies/hive-blockchain/                          ",
+    "https://coinmarketcap.com/currencies/aelf/                                     ",
+    "https://coinmarketcap.com/currencies/steem-dollars/                            ",
+    "https://coinmarketcap.com/currencies/define/                                   ",
+    "https://coinmarketcap.com/currencies/woonkly-power/                            ",
+    "https://coinmarketcap.com/currencies/bancor/                                   ",
+    "https://coinmarketcap.com/currencies/anchor-neural-world/                      ",
+    "https://coinmarketcap.com/currencies/seele/                                    ",
+    "https://coinmarketcap.com/currencies/bitget-token-new/                         ",
+    "https://coinmarketcap.com/currencies/voyager-token/                            ",
+    "https://coinmarketcap.com/currencies/burger-swap/                              ",
+    "https://coinmarketcap.com/currencies/stacks/                                   ",
+    "https://coinmarketcap.com/currencies/bitkub-coin/                              ",
+    "https://coinmarketcap.com/currencies/six/                                      ",
+    "https://coinmarketcap.com/currencies/moss-coin/                                ",
+    "https://coinmarketcap.com/currencies/avocado-dao-token/                        ",
+    "https://coinmarketcap.com/currencies/ashare/                                   ",
+    "https://coinmarketcap.com/currencies/scardust/                                 ",
+    "https://coinmarketcap.com/currencies/goat-token/                               ",
+    "https://coinmarketcap.com/currencies/bithashex/                                ",
+    "https://coinmarketcap.com/currencies/aimedis/                                  ",
+    "https://coinmarketcap.com/currencies/medium/                                   ",
+    "https://coinmarketcap.com/currencies/frz-solar-system/                         ",
+    "https://coinmarketcap.com/currencies/pledge-coin/                              ",
+    "https://coinmarketcap.com/currencies/lung-protocol/                            ",
+    "https://coinmarketcap.com/currencies/kujira/                                   ",
+    "https://coinmarketcap.com/currencies/team-heretics-fan-token/                  ",
+    "https://coinmarketcap.com/currencies/moniwar/                                  ",
+    "https://coinmarketcap.com/currencies/talkado/                                  ",
+    "https://coinmarketcap.com/currencies/monero-classic/                           ",
+    "https://coinmarketcap.com/currencies/blocsport-one/                            ",
+    "https://coinmarketcap.com/currencies/chihiro-inu/                              ",
+    "https://coinmarketcap.com/currencies/xswap-protocol/                           ",
+    "https://coinmarketcap.com/currencies/yarloo/                                   ",
+    "https://coinmarketcap.com/currencies/sandclock/                                ",
+    "https://coinmarketcap.com/currencies/v-dimension/                              ",
+    "https://coinmarketcap.com/currencies/dos-network/                              ",
+    "https://coinmarketcap.com/currencies/chaincorn/                                ",
+    "https://coinmarketcap.com/currencies/gomax/                                    ",
+    "https://coinmarketcap.com/currencies/lillion/                                  ",
+    "https://coinmarketcap.com/currencies/peakmines-peak/                           ",
+    "https://coinmarketcap.com/currencies/moontrustbsc/                             ",
+    "https://coinmarketcap.com/currencies/one-share/                                ",
+    "https://coinmarketcap.com/currencies/nextype/                                  ",
+    "https://coinmarketcap.com/currencies/footballcoin/                             ",
+    "https://coinmarketcap.com/currencies/antex/                                    ",
+    "https://coinmarketcap.com/currencies/hedgetrade/                               ",
+    "https://coinmarketcap.com/currencies/itsmyne/                                  ",
+    "https://coinmarketcap.com/currencies/one-cash/                                 ",
+    "https://coinmarketcap.com/currencies/cougar/                                   ",
+    "https://coinmarketcap.com/currencies/satoshiswap/                              ",
+    "https://coinmarketcap.com/currencies/maskdoge/                                 ",
+    "https://coinmarketcap.com/currencies/mobius/                                   ",
+    "https://coinmarketcap.com/currencies/tranquil-finance/                         ",
+    "https://coinmarketcap.com/currencies/optionroom/                               ",
+    "https://coinmarketcap.com/currencies/workertown/                               ",
+    "https://coinmarketcap.com/currencies/sportcash-one/                            ",
+    "https://coinmarketcap.com/currencies/yin-finance/                              ",
+    "https://coinmarketcap.com/currencies/ecomi-new/                                ",
+    "https://coinmarketcap.com/currencies/united-emirate-decentralized-coin/        ",
+    "https://coinmarketcap.com/currencies/erugo-world-coin/                         ",
+    "https://coinmarketcap.com/currencies/vodra/                                    ",
+    "https://coinmarketcap.com/currencies/unclemine/                                ",
+    "https://coinmarketcap.com/currencies/bemil-coin/                               ",
+    "https://coinmarketcap.com/currencies/top/                                      ",
+    "https://coinmarketcap.com/currencies/lyfe-land/                                ",
+    "https://coinmarketcap.com/currencies/tadpole-finance/                          ",
+    "https://coinmarketcap.com/currencies/dexlab/                                   ",
+    "https://coinmarketcap.com/currencies/crypto-inu/                               ",
+    "https://coinmarketcap.com/currencies/everrise/                                 ",
+    "https://coinmarketcap.com/currencies/novara-calcio-fan-token/                  ",
+    "https://coinmarketcap.com/currencies/tokenomy/                                 ",
+    "https://coinmarketcap.com/currencies/sumokoin/                                 ",
+    "https://coinmarketcap.com/currencies/evanesco-network/                         ",
+    "https://coinmarketcap.com/currencies/metaverse-index-token/                    ",
+    "https://coinmarketcap.com/currencies/ninneko/                                  ",
+    "https://coinmarketcap.com/currencies/strikecoin/                               ",
+    "https://coinmarketcap.com/currencies/pftm/                                     ",
+    "https://coinmarketcap.com/currencies/quantum-tech/                             ",
+    "https://coinmarketcap.com/currencies/spheroid-universe/                        ",
+    "https://coinmarketcap.com/currencies/veritaseum/                               ",
+    "https://coinmarketcap.com/currencies/aspo-world/                               ",
+    "https://coinmarketcap.com/currencies/space-misfits/                            ",
+    "https://coinmarketcap.com/currencies/multiverse-token/                         ",
+    "https://coinmarketcap.com/currencies/acestarter/                               ",
+    "https://coinmarketcap.com/currencies/attack-wagon/                             ",
+    "https://coinmarketcap.com/currencies/shibrwd/                                  ",
+    "https://coinmarketcap.com/currencies/ethfan-burn/                              ",
+    "https://coinmarketcap.com/currencies/pegaxy/                                   ",
+    "https://coinmarketcap.com/currencies/onooks/                                   ",
+    "https://coinmarketcap.com/currencies/goblin/                                   ",
+    "https://coinmarketcap.com/currencies/local-terra/                              ",
+    "https://coinmarketcap.com/currencies/scream/                                   ",
+    "https://coinmarketcap.com/currencies/moonie-nft/                               ",
+    "https://coinmarketcap.com/currencies/enjinstarter/                             ",
+    "https://coinmarketcap.com/currencies/naga/                                     ",
+    "https://coinmarketcap.com/currencies/frax-price-index-share/                   ",
+    "https://coinmarketcap.com/currencies/ichi/                                     ",
+    "https://coinmarketcap.com/currencies/feelcoin/                                 ",
+    "https://coinmarketcap.com/currencies/chikincoin/                               ",
+    "https://coinmarketcap.com/currencies/hakka-finance/                            ",
+    "https://coinmarketcap.com/currencies/ezchain/                                  ",
+    "https://coinmarketcap.com/currencies/santiment/                                ",
+    "https://coinmarketcap.com/currencies/viper-protocol/                           ",
+    "https://coinmarketcap.com/currencies/indian-shiba-inu/                         ",
+    "https://coinmarketcap.com/currencies/metaplayers-gg/                           ",
+    "https://coinmarketcap.com/currencies/dao-farmer-dfw/                           ",
+    "https://coinmarketcap.com/currencies/auditchain/                               ",
+    "https://coinmarketcap.com/currencies/bitdns/                                   ",
+    "https://coinmarketcap.com/currencies/heroes-chained/                           ",
+    "https://coinmarketcap.com/currencies/quai-dao/                                 ",
+    "https://coinmarketcap.com/currencies/litedex/                                  ",
+    "https://coinmarketcap.com/currencies/dddx-protocol/                            ",
+    "https://coinmarketcap.com/currencies/bitcore/                                  ",
+    "https://coinmarketcap.com/currencies/teddydog/                                 ",
+    "https://coinmarketcap.com/currencies/tradestars/                               ",
+    "https://coinmarketcap.com/currencies/keep-network/                             ",
+    "https://coinmarketcap.com/currencies/musk-gold/                                ",
+    "https://coinmarketcap.com/currencies/stater/                                   ",
+    "https://coinmarketcap.com/currencies/silo-finance/                             ",
+    "https://coinmarketcap.com/currencies/black-whale/                              ",
+    "https://coinmarketcap.com/currencies/luna-rush/                                ",
+    "https://coinmarketcap.com/currencies/lion-scrub-finance/                       ",
+    "https://coinmarketcap.com/currencies/the-whive-protocol/                       ",
+    "https://coinmarketcap.com/currencies/doex/                                     ",
+    "https://coinmarketcap.com/currencies/fractal/                                  ",
+    "https://coinmarketcap.com/currencies/sportoken/                                ",
+    "https://coinmarketcap.com/currencies/unipilot/                                 ",
+    "https://coinmarketcap.com/currencies/tiger-shares/                             ",
+    "https://coinmarketcap.com/currencies/rizespor-token/                           ",
+    "https://coinmarketcap.com/currencies/siren/                                    ",
+    "https://coinmarketcap.com/currencies/meter-governance-mapped-by-meter-io/      ",
+    "https://coinmarketcap.com/currencies/kampay/                                   ",
+    "https://coinmarketcap.com/currencies/wagmi/                                    ",
+    "https://coinmarketcap.com/currencies/nextearth/                                ",
+    "https://coinmarketcap.com/currencies/waultswap/                                ",
+    "https://coinmarketcap.com/currencies/wagyuswap/                                ",
+    "https://coinmarketcap.com/currencies/ledgis/                                   ",
+    "https://coinmarketcap.com/currencies/kick-io/                                  ",
+    "https://coinmarketcap.com/currencies/swop/                                     ",
+    "https://coinmarketcap.com/currencies/3x-long-cardano-token/                    ",
+    "https://coinmarketcap.com/currencies/3x-long-xrp-token/                        ",
+    "https://coinmarketcap.com/currencies/3x-long-matic-token/                      ",
+    "https://coinmarketcap.com/currencies/idefiyieldprotocol/                       ",
+    "https://coinmarketcap.com/currencies/doragonland/                              ",
+    "https://coinmarketcap.com/currencies/pancakebunny/                             ",
+    "https://coinmarketcap.com/currencies/richquack-com/                            ",
+    "https://coinmarketcap.com/currencies/dego-finance/                             ",
+    "https://coinmarketcap.com/currencies/kuai-token/                               ",
+    "https://coinmarketcap.com/currencies/felix-token/                              ",
+    "https://coinmarketcap.com/currencies/nooft/                                    ",
+    "https://coinmarketcap.com/currencies/triall/                                   ",
+    "https://coinmarketcap.com/currencies/skyrim-finance/                           ",
+    "https://coinmarketcap.com/currencies/b-cube-ai/                                ",
+    "https://coinmarketcap.com/currencies/freedom-god-dao/                          ",
+    "https://coinmarketcap.com/currencies/unirealchain/                             ",
+    "https://coinmarketcap.com/currencies/yflink/                                   ",
+    "https://coinmarketcap.com/currencies/real-metagaming/                          ",
+    "https://coinmarketcap.com/currencies/galatic-arena/                            ",
+    "https://coinmarketcap.com/currencies/temtum/                                   ",
+    "https://coinmarketcap.com/currencies/kleekai/                                  ",
+    "https://coinmarketcap.com/currencies/integral/                                 ",
+    "https://coinmarketcap.com/currencies/electrifyasia/                            ",
+    "https://coinmarketcap.com/currencies/gmcoin/                                   ",
+    "https://coinmarketcap.com/currencies/era-token/                                ",
+    "https://coinmarketcap.com/currencies/orbit-token/                              ",
+    "https://coinmarketcap.com/currencies/sivasspor-token/                          ",
+    "https://coinmarketcap.com/currencies/divergence/                               ",
+    "https://coinmarketcap.com/currencies/galaxycoin/                               ",
+    "https://coinmarketcap.com/currencies/trueflip/                                 ",
+    "https://coinmarketcap.com/currencies/playfuel/                                 ",
+    "https://coinmarketcap.com/currencies/avata-network/                            ",
+    "https://coinmarketcap.com/currencies/sinovate/                                 ",
+    "https://coinmarketcap.com/currencies/inu-base/                                 ",
+    "https://coinmarketcap.com/currencies/polkaex/                                  ",
+    "https://coinmarketcap.com/currencies/global-social-chain/                      ",
+    "https://coinmarketcap.com/currencies/geist-finance/                            ",
+    "https://coinmarketcap.com/currencies/paycer-protocol/                          ",
+    "https://coinmarketcap.com/currencies/cropbytes/                                ",
+    "https://coinmarketcap.com/currencies/loomi/                                    ",
+    "https://coinmarketcap.com/currencies/ravendex/                                 ",
+    "https://coinmarketcap.com/currencies/luni/                                     ",
+    "https://coinmarketcap.com/currencies/warriors-land-fuel/                       ",
+    "https://coinmarketcap.com/currencies/cryptogodz/                               ",
+    "https://coinmarketcap.com/currencies/cumrocket/                                ",
+    "https://coinmarketcap.com/currencies/shping/                                   ",
+    "https://coinmarketcap.com/currencies/lean-management-token/                    ",
+    "https://coinmarketcap.com/currencies/monsta-infinite/                          ",
+    "https://coinmarketcap.com/currencies/welups-blockchain/                        ",
+    "https://coinmarketcap.com/currencies/goal-token/                               ",
+    "https://coinmarketcap.com/currencies/jarvis-network/                           ",
+    "https://coinmarketcap.com/currencies/poseidon-network/                         ",
+    "https://coinmarketcap.com/currencies/cryptorpg/                                ",
+    "https://coinmarketcap.com/currencies/coinerr/                                  ",
+    "https://coinmarketcap.com/currencies/ivogel/                                   ",
+    "https://coinmarketcap.com/currencies/julswap/                                  ",
+    "https://coinmarketcap.com/currencies/88mph/                                    ",
+    "https://coinmarketcap.com/currencies/bonfire/                                  ",
+    "https://coinmarketcap.com/currencies/moonlana/                                 ",
+    "https://coinmarketcap.com/currencies/madworld/                                 ",
+    "https://coinmarketcap.com/currencies/dark-land-survival/                       ",
+    "https://coinmarketcap.com/currencies/media-eye/                                ",
+    "https://coinmarketcap.com/currencies/motionwreck-games/                        ",
+    "https://coinmarketcap.com/currencies/yobit-token/                              ",
+    "https://coinmarketcap.com/currencies/pornverse/                                ",
+    "https://coinmarketcap.com/currencies/futurecoin/                               ",
+    "https://coinmarketcap.com/currencies/eth-shiba/                                ",
+    "https://coinmarketcap.com/currencies/sway-social-protocol/                     ",
+    "https://coinmarketcap.com/currencies/unicly/                                   ",
+    "https://coinmarketcap.com/currencies/karura/                                   ",
+    "https://coinmarketcap.com/currencies/iqeon/                                    ",
+    "https://coinmarketcap.com/currencies/cardstack/                                ",
+    "https://coinmarketcap.com/currencies/chihuahua-wtf/                            ",
+    "https://coinmarketcap.com/currencies/ridge/                                    ",
+    "https://coinmarketcap.com/currencies/t-os/                                     ",
+    "https://coinmarketcap.com/currencies/litex/                                    ",
+    "https://coinmarketcap.com/currencies/educare/                                  ",
+    "https://coinmarketcap.com/currencies/warena/                                   ",
+    "https://coinmarketcap.com/currencies/coin-of-champions/                        ",
+    "https://coinmarketcap.com/currencies/dexsport/                                 ",
+    "https://coinmarketcap.com/currencies/uniqly/                                   ",
+    "https://coinmarketcap.com/currencies/anonverse/                                ",
+    "https://coinmarketcap.com/currencies/metawear/                                 ",
+    "https://coinmarketcap.com/currencies/portify/                                  ",
+    "https://coinmarketcap.com/currencies/alchemist/                                ",
+    "https://coinmarketcap.com/currencies/drife/                                    ",
+    "https://coinmarketcap.com/currencies/insure/                                   ",
+    "https://coinmarketcap.com/currencies/utrust/                                   ",
+    "https://coinmarketcap.com/currencies/everycoin/                                ",
+    "https://coinmarketcap.com/currencies/polar-sync/                               ",
+    "https://coinmarketcap.com/currencies/enterdao/                                 ",
+    "https://coinmarketcap.com/currencies/ubxs/                                     ",
+    "https://coinmarketcap.com/currencies/limocoin-swap/                            ",
+    "https://coinmarketcap.com/currencies/kalmar/                                   ",
+    "https://coinmarketcap.com/currencies/unmarshal-token/                          ",
+    "https://coinmarketcap.com/currencies/salmonswap/                               ",
+    "https://coinmarketcap.com/currencies/red/                                      ",
+    "https://coinmarketcap.com/currencies/clucoin/                                  ",
+    "https://coinmarketcap.com/currencies/impossible-decentralized-incubator-access/",
+    "https://coinmarketcap.com/currencies/racefi/                                   ",
+    "https://coinmarketcap.com/currencies/vidy/                                     ",
+    "https://coinmarketcap.com/currencies/paragonsdao/                              ",
+    "https://coinmarketcap.com/currencies/kcash/                                    ",
+    "https://coinmarketcap.com/currencies/ureeqa/                                   ",
+    "https://coinmarketcap.com/currencies/electra-protocol/                         ",
+    "https://coinmarketcap.com/currencies/geeq/                                     ",
+    "https://coinmarketcap.com/currencies/darkness-share/                           ",
+    "https://coinmarketcap.com/currencies/small-fish-cookie/                        ",
+    "https://coinmarketcap.com/currencies/goldario/                                 ",
+    "https://coinmarketcap.com/currencies/futureswap/                               ",
+    "https://coinmarketcap.com/currencies/quadrantprotocol/                         ",
+    "https://coinmarketcap.com/currencies/bankless-dao/                             ",
+    "https://coinmarketcap.com/currencies/halodao/                                  ",
+    "https://coinmarketcap.com/currencies/crazyminer/                               ",
     "https://coinmarketcap.com/currencies/9d-nft/                                   ",
     "https://coinmarketcap.com/currencies/fluity/                                   ",
     "https://coinmarketcap.com/currencies/birdchain/                                ",
@@ -59,12 +375,8 @@ return [
     "https://coinmarketcap.com/currencies/scallop/                                  ",
     "https://coinmarketcap.com/currencies/bitrise-token/                            ",
     "https://coinmarketcap.com/currencies/bunnypark/                                ",
-    "https://coinmarketcap.com/currencies/titi-financial/                           ",
-    "https://coinmarketcap.com/currencies/kunci-coin/                               ",
     "https://coinmarketcap.com/currencies/ovr/                                      ",
     "https://coinmarketcap.com/currencies/elephant-money/                           ",
-    "https://coinmarketcap.com/currencies/mcontent/                                 ",
-    "https://coinmarketcap.com/currencies/pancakebunny/                             ",
     "https://coinmarketcap.com/currencies/yvs-finance/                              ",
     "https://coinmarketcap.com/currencies/srnartgallery/                            ",
     "https://coinmarketcap.com/currencies/vox-finance/                              ",
@@ -72,514 +384,325 @@ return [
     "https://coinmarketcap.com/currencies/goose-finance/                            ",
     "https://coinmarketcap.com/currencies/cafeswap-token/                           ",
     "https://coinmarketcap.com/currencies/sparkpoint-fuel/                          ",
-    "https://coinmarketcap.com/currencies/smoothy/                                  ",
     "https://coinmarketcap.com/currencies/paybswap/                                 ",
     "https://coinmarketcap.com/currencies/yellow-road/                              ",
     "https://coinmarketcap.com/currencies/typhoon-network/                          ",
     "https://coinmarketcap.com/currencies/rigel-protocol/                           ",
     "https://coinmarketcap.com/currencies/gourmet-galaxy/                           ",
     "https://coinmarketcap.com/currencies/collateral-pay/                           ",
-    "https://coinmarketcap.com/currencies/afen-blockchain/                          ",
     "https://coinmarketcap.com/currencies/robust-protocol/                          ",
     "https://coinmarketcap.com/currencies/mmocoin/                                  ",
     "https://coinmarketcap.com/currencies/daoventures/                              ",
     "https://coinmarketcap.com/currencies/dinoexchange/                             ",
     "https://coinmarketcap.com/currencies/bonfi/                                    ",
     "https://coinmarketcap.com/currencies/acoconut/                                 ",
-    "https://coinmarketcap.com/currencies/zuki-moba/                                ",
     "https://coinmarketcap.com/currencies/kalata/                                   ",
     "https://coinmarketcap.com/currencies/kingdom-game-4/                           ",
     "https://coinmarketcap.com/currencies/bunicorn/                                 ",
     "https://coinmarketcap.com/currencies/unifarm/                                  ",
     "https://coinmarketcap.com/currencies/defisocial-gaming-new/                    ",
-    "https://coinmarketcap.com/currencies/mochi-market/                             ",
-    "https://coinmarketcap.com/currencies/shake/                                    ",
-    "https://coinmarketcap.com/currencies/porta/                                    ",
-    "https://coinmarketcap.com/currencies/cryptotrains/                             ",
-    "https://coinmarketcap.com/currencies/singularity-gold/                         ",
-    "https://coinmarketcap.com/currencies/dragon-verse/                             ",
-    "https://coinmarketcap.com/currencies/genshiro/                                 ",
-    "https://coinmarketcap.com/currencies/moonstarter/                              ",
-    "https://coinmarketcap.com/currencies/heropark/                                 ",
-    "https://coinmarketcap.com/currencies/planet-sandbox/                           ",
-    "https://coinmarketcap.com/currencies/elon-goat/                                ",
-    "https://coinmarketcap.com/currencies/yfione/                                   ",
-    "https://coinmarketcap.com/currencies/xsl-labs/                                 ",
-    "https://coinmarketcap.com/currencies/alium-finance/                            ",
-    "https://coinmarketcap.com/currencies/world-of-defish/                          ",
-    "https://coinmarketcap.com/currencies/copiosa-coin/                             ",
-    "https://coinmarketcap.com/currencies/gspi-governance/                          ",
-    "https://coinmarketcap.com/currencies/vention/                                  ",
-    "https://coinmarketcap.com/currencies/zoo-crypto-world/                         ",
-    "https://coinmarketcap.com/currencies/meblox-protocol/                          ",
-    "https://coinmarketcap.com/currencies/platinx/                                  ",
-    "https://coinmarketcap.com/currencies/moon-nation-game/                         ",
-    "https://coinmarketcap.com/currencies/dungeonswap/                              ",
-    "https://coinmarketcap.com/currencies/yearn-classic-finance/                    ",
-    "https://coinmarketcap.com/currencies/battle-pets/                              ",
-    "https://coinmarketcap.com/currencies/battlesaga/                               ",
-    "https://coinmarketcap.com/currencies/launchpool/                               ",
-    "https://coinmarketcap.com/currencies/tronpad/                                  ",
-    "https://coinmarketcap.com/currencies/plastiks/                                 ",
-    "https://coinmarketcap.com/currencies/cardence-io/                              ",
-    "https://coinmarketcap.com/currencies/graviton-zero/                            ",
-    "https://coinmarketcap.com/currencies/eifi-finance/                             ",
-    "https://coinmarketcap.com/currencies/april/                                    ",
-    "https://coinmarketcap.com/currencies/eqifi/                                    ",
-    "https://coinmarketcap.com/currencies/your-future-exchange/                     ",
-    "https://coinmarketcap.com/currencies/crosswallet/                              ",
-    "https://coinmarketcap.com/currencies/roseon-finance/                           ",
-    "https://coinmarketcap.com/currencies/trustpad/                                 ",
-    "https://coinmarketcap.com/currencies/heroes-and-empires/                       ",
-    "https://coinmarketcap.com/currencies/dnaxcat-token/                            ",
-    "https://coinmarketcap.com/currencies/warrior-token-spartan-casino/             ",
-    "https://coinmarketcap.com/currencies/despace-protocol/                         ",
-    "https://coinmarketcap.com/currencies/ekta/                                     ",
-    "https://coinmarketcap.com/currencies/anime-token/                              ",
-    "https://coinmarketcap.com/currencies/trade-race-manager/                       ",
-    "https://coinmarketcap.com/currencies/duckie-land/                              ",
-    "https://coinmarketcap.com/currencies/infinity-skies/                           ",
-    "https://coinmarketcap.com/currencies/purefi-protocol/                          ",
-    "https://coinmarketcap.com/currencies/magiccraft/                               ",
-    "https://coinmarketcap.com/currencies/terablock/                                ",
-    "https://coinmarketcap.com/currencies/bsc-tools/                                ",
-    "https://coinmarketcap.com/currencies/dinox/                                    ",
-    "https://coinmarketcap.com/currencies/betfury/                                  ",
-    "https://coinmarketcap.com/currencies/memepad/                                  ",
-    "https://coinmarketcap.com/currencies/hummingbird-finance/                      ",
-    "https://coinmarketcap.com/currencies/drip-network/                             ",
-    "https://coinmarketcap.com/currencies/metastrike/                               ",
-    "https://coinmarketcap.com/currencies/pancake-hunny/                            ",
-    "https://coinmarketcap.com/currencies/bat-true-share/                           ",
-    "https://coinmarketcap.com/currencies/jurassic-crypto/                          ",
-    "https://coinmarketcap.com/currencies/fanspel/                                  ",
-    "https://coinmarketcap.com/currencies/mammon/                                   ",
-    "https://coinmarketcap.com/currencies/strite/                                   ",
-    "https://coinmarketcap.com/currencies/metaniagames/                             ",
-    "https://coinmarketcap.com/currencies/waultswap/                                ",
-    "https://coinmarketcap.com/currencies/ramenswap/                                ",
-    "https://coinmarketcap.com/currencies/safelaunch/                               ",
-    "https://coinmarketcap.com/currencies/asva-finance/                             ",
-    "https://coinmarketcap.com/currencies/the-everlasting-parachain/                ",
-    "https://coinmarketcap.com/currencies/rasta-finance/                            ",
-    "https://coinmarketcap.com/currencies/planet-finance/                           ",
-    "https://coinmarketcap.com/currencies/space-token/                              ",
-    "https://coinmarketcap.com/currencies/bsc-gold/                                 ",
-    "https://coinmarketcap.com/currencies/hugo-finance/                             ",
-    "https://coinmarketcap.com/currencies/quidax/                                   ",
-    "https://coinmarketcap.com/currencies/feeder-finance/                           ",
-    "https://coinmarketcap.com/currencies/cryptoxpress/                             ",
-    "https://coinmarketcap.com/currencies/kickpad/                                  ",
-    "https://coinmarketcap.com/currencies/xwin-finance/                             ",
-    "https://coinmarketcap.com/currencies/jojo/                                     ",
-    "https://coinmarketcap.com/currencies/polkacipher/                              ",
-    "https://coinmarketcap.com/currencies/bdollar-share/                            ",
-    "https://coinmarketcap.com/currencies/euler-tools/                              ",
-    "https://coinmarketcap.com/currencies/omni-token/                               ",
-    "https://coinmarketcap.com/currencies/kiwi-finance/                             ",
-    "https://coinmarketcap.com/currencies/one-basis-cash/                           ",
-    "https://coinmarketcap.com/currencies/tigerfinance/                             ",
-    "https://coinmarketcap.com/currencies/investdex/                                ",
-    "https://coinmarketcap.com/currencies/toad-network/                             ",
-    "https://coinmarketcap.com/currencies/dreamdao/                                 ",
-    "https://coinmarketcap.com/currencies/safe-token/                               ",
-    "https://coinmarketcap.com/currencies/peachfolio/                               ",
-    "https://coinmarketcap.com/currencies/seed/                                     ",
-    "https://coinmarketcap.com/currencies/trustworks/                               ",
-    "https://coinmarketcap.com/currencies/h2finance/                                ",
-    "https://coinmarketcap.com/currencies/olive-cash/                               ",
-    "https://coinmarketcap.com/currencies/cryptoskates/                             ",
-    "https://coinmarketcap.com/currencies/zcore-finance/                            ",
-    "https://coinmarketcap.com/currencies/kalissa/                                  ",
-    "https://coinmarketcap.com/currencies/zodiacs/                                  ",
-    "https://coinmarketcap.com/currencies/armzlegends/                              ",
-    "https://coinmarketcap.com/currencies/omni-real-estate-token/                   ",
-    "https://coinmarketcap.com/currencies/foxy-equilibrium/                         ",
-    "https://coinmarketcap.com/currencies/kingdom-karnage/                          ",
-    "https://coinmarketcap.com/currencies/vira-lata-finance/                        ",
-    "https://coinmarketcap.com/currencies/mango-finance/                            ",
-    "https://coinmarketcap.com/currencies/ebox/                                     ",
-    "https://coinmarketcap.com/currencies/fishingtowngiltoken/                      ",
-    "https://coinmarketcap.com/currencies/arena-token/                              ",
-    "https://coinmarketcap.com/currencies/fire-token/                               ",
-    "https://coinmarketcap.com/currencies/metaficial-world/                         ",
-    "https://coinmarketcap.com/currencies/ultrasafe/                                ",
-    "https://coinmarketcap.com/currencies/cryptofarming/                            ",
-    "https://coinmarketcap.com/currencies/age-of-knights/                           ",
-    "https://coinmarketcap.com/currencies/evodefi/                                  ",
-    "https://coinmarketcap.com/currencies/toolape/                                  ",
-    "https://coinmarketcap.com/currencies/lasereyes/                                ",
-    "https://coinmarketcap.com/currencies/shuttleone/                               ",
-    "https://coinmarketcap.com/currencies/nftswaps/                                 ",
-    "https://coinmarketcap.com/currencies/astronaut/                                ",
-    "https://coinmarketcap.com/currencies/crossing-the-yellow-blocks/               ",
-    "https://coinmarketcap.com/currencies/the-lab-finance/                          ",
-    "https://coinmarketcap.com/currencies/sishi-finance/                            ",
-    "https://coinmarketcap.com/currencies/tenet/                                    ",
-    "https://coinmarketcap.com/currencies/bscex/                                    ",
-    "https://coinmarketcap.com/currencies/doom-hero-dao/                            ",
-    "https://coinmarketcap.com/currencies/fisher-vs-pirate/                         ",
-    "https://coinmarketcap.com/currencies/sea-token/                                ",
-    "https://coinmarketcap.com/currencies/ilus-coin/                                ",
-    "https://coinmarketcap.com/currencies/fragments-of-arker/                       ",
-    "https://coinmarketcap.com/currencies/revo-network/                             ",
-    "https://coinmarketcap.com/currencies/b21-invest/                               ",
-    "https://coinmarketcap.com/currencies/mermaid-swap/                             ",
-    "https://coinmarketcap.com/currencies/treedefi/                                 ",
-    "https://coinmarketcap.com/currencies/eternal-cash/                             ",
-    "https://coinmarketcap.com/currencies/fryworld/                                 ",
-    "https://coinmarketcap.com/currencies/cherrypick/                               ",
-    "https://coinmarketcap.com/currencies/binamars/                                 ",
-    "https://coinmarketcap.com/currencies/eutaria/                                  ",
-    "https://coinmarketcap.com/currencies/mocktailswap/                             ",
-    "https://coinmarketcap.com/currencies/moonsdust/                                ",
-    "https://coinmarketcap.com/currencies/the-smokehouse/                           ",
-    "https://coinmarketcap.com/currencies/blizzard-money/                           ",
-    "https://coinmarketcap.com/currencies/lexit/                                    ",
-    "https://coinmarketcap.com/currencies/one-get-coin/                             ",
-    "https://coinmarketcap.com/currencies/monster-slayer-finance/                   ",
-    "https://coinmarketcap.com/currencies/zodiacdao/                                ",
-    "https://coinmarketcap.com/currencies/pofi/                                     ",
-    "https://coinmarketcap.com/currencies/absorber-protocol/                        ",
-    "https://coinmarketcap.com/currencies/1tronic-network/                          ",
-    "https://coinmarketcap.com/currencies/xpool/                                    ",
-    "https://coinmarketcap.com/currencies/mochiswap/                                ",
-    "https://coinmarketcap.com/currencies/bscstarter/                               ",
-    "https://coinmarketcap.com/currencies/newb-farm/                                ",
-    "https://coinmarketcap.com/currencies/momo-key/                                 ",
-    "https://coinmarketcap.com/currencies/swampy/                                   ",
-    "https://coinmarketcap.com/currencies/less-network/                             ",
-    "https://coinmarketcap.com/currencies/satozhi/                                  ",
-    "https://coinmarketcap.com/currencies/dot-finance/                              ",
-    "https://coinmarketcap.com/currencies/cargolink/                                ",
-    "https://coinmarketcap.com/currencies/exip/                                     ",
-    "https://coinmarketcap.com/currencies/crystal-of-dragon/                        ",
-    "https://coinmarketcap.com/currencies/turtle-racing/                            ",
-    "https://coinmarketcap.com/currencies/mybricks/                                 ",
-    "https://coinmarketcap.com/currencies/cryptosword/                              ",
-    "https://coinmarketcap.com/currencies/moonarch-app/                             ",
-    "https://coinmarketcap.com/currencies/happinesstoken/                           ",
-    "https://coinmarketcap.com/currencies/swapz/                                    ",
-    "https://coinmarketcap.com/currencies/harambe-protocol/                         ",
-    "https://coinmarketcap.com/currencies/bloggercoin/                              ",
-    "https://coinmarketcap.com/currencies/croxswap/                                 ",
-    "https://coinmarketcap.com/currencies/momo-protocol/                            ",
-    "https://coinmarketcap.com/currencies/chickenkebab-finance/                     ",
-    "https://coinmarketcap.com/currencies/hifi-gaming-society/                      ",
-    "https://coinmarketcap.com/currencies/swincoin/                                 ",
-    "https://coinmarketcap.com/currencies/sting-defi/                               ",
-    "https://coinmarketcap.com/currencies/bitbook/                                  ",
-    "https://coinmarketcap.com/currencies/baby-pokemoon/                            ",
-    "https://coinmarketcap.com/currencies/gorilla-diamond/                          ",
-    "https://coinmarketcap.com/currencies/jetfuel-finance/                          ",
-    "https://coinmarketcap.com/currencies/xmark/                                    ",
-    "https://coinmarketcap.com/currencies/bamboo-defi/                              ",
-    "https://coinmarketcap.com/currencies/supremacy/                                ",
-    "https://coinmarketcap.com/currencies/trustfi-network/                          ",
-    "https://coinmarketcap.com/currencies/paralink-network/                         ",
-    "https://coinmarketcap.com/currencies/moonfarm-finance/                         ",
-    "https://coinmarketcap.com/currencies/placewar/                                 ",
-    "https://coinmarketcap.com/currencies/duke-inu-token/                           ",
-    "https://coinmarketcap.com/currencies/dfuture/                                  ",
-    "https://coinmarketcap.com/currencies/fomo-lab/                                 ",
-    "https://coinmarketcap.com/currencies/greenheart-cbd/                           ",
-    "https://coinmarketcap.com/currencies/iddle-cyber/                              ",
-    "https://coinmarketcap.com/currencies/calo-app/                                 ",
-    "https://coinmarketcap.com/currencies/uncl/                                     ",
-    "https://coinmarketcap.com/currencies/liquidifty/                               ",
-    "https://coinmarketcap.com/currencies/game-ace-token/                           ",
-    "https://coinmarketcap.com/currencies/mercor-finance/                           ",
-    "https://coinmarketcap.com/currencies/bafi-finance/                             ",
-    "https://coinmarketcap.com/currencies/black-eye-galaxy/                         ",
-    "https://coinmarketcap.com/currencies/vulkania/                                 ",
-    "https://coinmarketcap.com/currencies/livenft/                                  ",
-    "https://coinmarketcap.com/currencies/velorex/                                  ",
-    "https://coinmarketcap.com/currencies/degen-protocol/                           ",
-    "https://coinmarketcap.com/currencies/nominex-token/                            ",
-    "https://coinmarketcap.com/currencies/artex/                                    ",
-    "https://coinmarketcap.com/currencies/defipie/                                  ",
-    "https://coinmarketcap.com/currencies/decubate/                                 ",
-    "https://coinmarketcap.com/currencies/amc-fight-night/                          ",
-    "https://coinmarketcap.com/currencies/dogemon-go/                               ",
-    "https://coinmarketcap.com/currencies/peakmines-peak/                           ",
-    "https://coinmarketcap.com/currencies/qian-kun/                                 ",
-    "https://coinmarketcap.com/currencies/bitcoin-asset/                            ",
-    "https://coinmarketcap.com/currencies/fibswap-dex/                              ",
-    "https://coinmarketcap.com/currencies/br34p/                                    ",
-    "https://coinmarketcap.com/currencies/dxsale-network/                           ",
-    "https://coinmarketcap.com/currencies/ramifi-protocol/                          ",
-    "https://coinmarketcap.com/currencies/zomfi/                                    ",
-    "https://coinmarketcap.com/currencies/lever-token/                              ",
-    "https://coinmarketcap.com/currencies/frenchie-network/                         ",
-    "https://coinmarketcap.com/currencies/cyber-crystal/                            ",
-    "https://coinmarketcap.com/currencies/crossfi/                                  ",
-    "https://coinmarketcap.com/currencies/copuppy/                                  ",
-    "https://coinmarketcap.com/currencies/daolaunch/                                ",
-    "https://coinmarketcap.com/currencies/truepnl/                                  ",
-    "https://coinmarketcap.com/currencies/ten/                                      ",
-    "https://coinmarketcap.com/currencies/macaronswap/                              ",
-    "https://coinmarketcap.com/currencies/boy-x-highspeed/                          ",
-    "https://coinmarketcap.com/currencies/birb/                                     ",
-    "https://coinmarketcap.com/currencies/cub-finance/                              ",
-    "https://coinmarketcap.com/currencies/monster-galaxy/                           ",
-    "https://coinmarketcap.com//currencies/dogs-kombat/                             ",
-    "https://coinmarketcap.com//currencies/parainu-v2/                              ",
-    "https://coinmarketcap.com//currencies/animal-concerts/                         ",
-    "https://coinmarketcap.com//currencies/export-mortos-platform/                  ",
-    "https://coinmarketcap.com//currencies/viberate/                                ",
-    "https://coinmarketcap.com//currencies/vector-finance/                          ",
-    "https://coinmarketcap.com//currencies/safemoon-v2/                             ",
-    "https://coinmarketcap.com//currencies/en-tan-mo/                               ",
-    "https://coinmarketcap.com//currencies/strong/                                  ",
-    "https://coinmarketcap.com//currencies/konomi-network/                          ",
-    "https://coinmarketcap.com//currencies/mad-meerkat-etf/                         ",
-    "https://coinmarketcap.com//currencies/mines-of-dalarnia/                       ",
-    "https://coinmarketcap.com//currencies/multichain/                              ",
-    "https://coinmarketcap.com//currencies/cryowar/                                 ",
-    "https://coinmarketcap.com//currencies/audius/                                  ",
-    "https://coinmarketcap.com//currencies/meverse/                                 ",
-    "https://coinmarketcap.com//currencies/defina-finance/                          ",
-    "https://coinmarketcap.com//currencies/mcontent/                                ",
-    "https://coinmarketcap.com//currencies/jpeg-d/                                  ",
-    "https://coinmarketcap.com//currencies/trabzonspor-fan-token/                   ",
-    "https://coinmarketcap.com//currencies/cryptozoon/                              ",
-    "https://coinmarketcap.com//currencies/connectome/                              ",
-    "https://coinmarketcap.com//currencies/major-protocol/                          ",
-    "https://coinmarketcap.com//currencies/milo-inu/                                ",
-    "https://coinmarketcap.com//currencies/smooth-love-potion/                      ",
-    "https://coinmarketcap.com//currencies/district0x/                              ",
-    "https://coinmarketcap.com//currencies/mineplex/                                ",
-    "https://coinmarketcap.com//currencies/clearpool/                               ",
-    "https://coinmarketcap.com//currencies/victoria-vr/                             ",
-    "https://coinmarketcap.com//currencies/looksrare/                               ",
-    "https://coinmarketcap.com//currencies/voxies/                                  ",
-    "https://coinmarketcap.com//currencies/biconomy/                                ",
-    "https://coinmarketcap.com//currencies/ltradex/                                 ",
-    "https://coinmarketcap.com//currencies/cortex/                                  ",
-    "https://coinmarketcap.com//currencies/aventus/                                 ",
-    "https://coinmarketcap.com//currencies/cryptomines-reborn/                      ",
-    "https://coinmarketcap.com//currencies/waltonchain/                             ",
-    "https://coinmarketcap.com//currencies/api3/                                    ",
-    "https://coinmarketcap.com//currencies/gogolcoin/                               ",
-    "https://coinmarketcap.com//currencies/geojam-token/                            ",
-    "https://coinmarketcap.com//currencies/adadao/                                  ",
-    "https://coinmarketcap.com//currencies/outer-ring-mmo-gq/                       ",
-    "https://coinmarketcap.com//currencies/green-metaverse-token/                   ",
-    "https://coinmarketcap.com//currencies/senso/                                   ",
-    "https://coinmarketcap.com//currencies/trisolaris/                              ",
-    "https://coinmarketcap.com//currencies/gamercoin/                               ",
-    "https://coinmarketcap.com//currencies/injective-protocol/                      ",
-    "https://coinmarketcap.com//currencies/jasmy/                                   ",
-    "https://coinmarketcap.com//currencies/quarkchain/                              ",
-    "https://coinmarketcap.com//currencies/fetch/                                   ",
-    "https://coinmarketcap.com//currencies/x-world-games/                           ",
-    "https://coinmarketcap.com//currencies/locus-chain/                             ",
-    "https://coinmarketcap.com//currencies/near-protocol/                           ",
-    "https://coinmarketcap.com//currencies/mvl/                                     ",
-    "https://coinmarketcap.com//currencies/metadoctor/                              ",
-    "https://coinmarketcap.com//currencies/render-token/                            ",
-    "https://coinmarketcap.com//currencies/mina/                                    ",
-    "https://coinmarketcap.com//currencies/badger-dao/                              ",
-    "https://coinmarketcap.com//currencies/validity/                                ",
-    "https://coinmarketcap.com//currencies/conun/                                   ",
-    "https://coinmarketcap.com//currencies/waves/                                   ",
-    "https://coinmarketcap.com//currencies/earthfund/                               ",
-    "https://coinmarketcap.com//currencies/coti/                                    ",
-    "https://coinmarketcap.com//currencies/venus/                                   ",
-    "https://coinmarketcap.com//currencies/spacepi/                                 ",
-    "https://coinmarketcap.com//currencies/bloktopia/                               ",
-    "https://coinmarketcap.com//currencies/starsharks-sss/                          ",
-    "https://coinmarketcap.com//currencies/nuls/                                    ",
-    "https://coinmarketcap.com//currencies/shiba-predator/                          ",
-    "https://coinmarketcap.com//currencies/cocos-bcx/                               ",
-    "https://coinmarketcap.com//currencies/biswap/                                  ",
-    "https://coinmarketcap.com//currencies/chronicle/                               ",
-    "https://coinmarketcap.com//currencies/suku/                                    ",
-    "https://coinmarketcap.com//currencies/mrweb-finance/                           ",
-    "https://coinmarketcap.com//currencies/wazirx/                                  ",
-    "https://coinmarketcap.com//currencies/gxchain/                                 ",
-    "https://coinmarketcap.com//currencies/hathor/                                  ",
-    "https://coinmarketcap.com//currencies/throne/                                  ",
-    "https://coinmarketcap.com//currencies/ahatoken/                                ",
-    "https://coinmarketcap.com//currencies/kitty-coin-solana/                       ",
-    "https://coinmarketcap.com//currencies/dotmoovs/                                ",
-    "https://coinmarketcap.com//currencies/eminer/                                  ",
-    "https://coinmarketcap.com//currencies/lido-dao/                                ",
-    "https://coinmarketcap.com//currencies/calo-app/                                ",
-    "https://coinmarketcap.com//currencies/dopex/                                   ",
-    "https://coinmarketcap.com//currencies/savanna/                                 ",
-    "https://coinmarketcap.com//currencies/acala/                                   ",
-    "https://coinmarketcap.com//currencies/spell-token/                             ",
-    "https://coinmarketcap.com//currencies/moviebloc/                               ",
-    "https://coinmarketcap.com//currencies/tokocrypto/                              ",
-    "https://coinmarketcap.com//currencies/maker/                                   ",
-    "https://coinmarketcap.com//currencies/vulcan-forged-pyr/                       ",
-    "https://coinmarketcap.com//currencies/mobox/                                   ",
-    "https://coinmarketcap.com//currencies/platon/                                  ",
-    "https://coinmarketcap.com//currencies/trias-token/                             ",
-    "https://coinmarketcap.com//currencies/opulous/                                 ",
-    "https://coinmarketcap.com//currencies/inter-milan-fan-token/                   ",
-    "https://coinmarketcap.com//currencies/moonbeam/                                ",
-    "https://coinmarketcap.com//currencies/immutable-x/                             ",
-    "https://coinmarketcap.com//currencies/wanchain/                                ",
-    "https://coinmarketcap.com//currencies/zilliqa/                                 ",
-    "https://coinmarketcap.com//currencies/celo/                                    ",
-    "https://coinmarketcap.com//currencies/okt/                                     ",
-    "https://coinmarketcap.com//currencies/shyft-network/                           ",
-    "https://coinmarketcap.com//currencies/pnetwork/                                ",
-    "https://coinmarketcap.com//currencies/vidt-datalink/                           ",
-    "https://coinmarketcap.com//currencies/adappter-token/                          ",
-    "https://coinmarketcap.com//currencies/meerkat-shares/                          ",
-    "https://coinmarketcap.com//currencies/goztepe-sk-fantoken/                     ",
-    "https://coinmarketcap.com//currencies/chainbing/                               ",
-    "https://coinmarketcap.com//currencies/ellipsis/                                ",
-    "https://coinmarketcap.com//currencies/crpt/                                    ",
-    "https://coinmarketcap.com//currencies/clover/                                  ",
-    "https://coinmarketcap.com//currencies/aioz-network/                            ",
-    "https://coinmarketcap.com//currencies/refereum/                                ",
-    "https://coinmarketcap.com//currencies/green-satoshi-token/                     ",
-    "https://coinmarketcap.com//currencies/just/                                    ",
-    "https://coinmarketcap.com//currencies/xmon/                                    ",
-    "https://coinmarketcap.com//currencies/gods-unchained/                          ",
-    "https://coinmarketcap.com//currencies/selfkey/                                 ",
-    "https://coinmarketcap.com//currencies/blockchain-brawlers/                     ",
-    "https://coinmarketcap.com//currencies/nakamoto-games/                          ",
-    "https://coinmarketcap.com//currencies/rss3/                                    ",
-    "https://coinmarketcap.com//currencies/millimeter/                              ",
-    "https://coinmarketcap.com//currencies/aurora-near/                             ",
-    "https://coinmarketcap.com//currencies/adventure-gold/                          ",
-    "https://coinmarketcap.com//currencies/frontier/                                ",
-    "https://coinmarketcap.com//currencies/dvision-network/                         ",
-    "https://coinmarketcap.com//currencies/casper/                                  ",
-    "https://coinmarketcap.com//currencies/opendao/                                 ",
-    "https://coinmarketcap.com//currencies/wtf-token/                               ",
-    "https://coinmarketcap.com//currencies/aleph-zero/                              ",
-    "https://coinmarketcap.com//currencies/bot-planet/                              ",
-    "https://coinmarketcap.com//currencies/idex/                                    ",
-    "https://coinmarketcap.com//currencies/uniswap/                                 ",
-    "https://coinmarketcap.com//currencies/mm-optimizer/                            ",
-    "https://coinmarketcap.com//currencies/dose/                                    ",
-    "https://coinmarketcap.com//currencies/curate/                                  ",
-    "https://coinmarketcap.com//currencies/neutrino-usd/                            ",
-    "https://coinmarketcap.com//currencies/gm/                                      ",
-    "https://coinmarketcap.com//currencies/ramp/                                    ",
-    "https://coinmarketcap.com//currencies/klaycity/                                ",
-    "https://coinmarketcap.com//currencies/onbuff/                                  ",
-    "https://coinmarketcap.com//currencies/metaverse-all-best-ico/                  ",
-    "https://coinmarketcap.com//currencies/nft-all-best-ico/                        ",
-    "https://coinmarketcap.com//currencies/hippo-protocol/                          ",
-    "https://coinmarketcap.com//currencies/nest-protocol/                           ",
-    "https://coinmarketcap.com//currencies/alethea-artificial-liquid-intelligence-token/",
-    "https://coinmarketcap.com//currencies/mineral/                                 ",
-    "https://coinmarketcap.com//currencies/molecular-future/                        ",
-    "https://coinmarketcap.com//currencies/strike/                                  ",
-    "https://coinmarketcap.com//currencies/bnb-chain-all-best-ico/                  ",
-    "https://coinmarketcap.com//currencies/cratos/                                  ",
-    "https://coinmarketcap.com//currencies/hoqu/                                    ",
-    "https://coinmarketcap.com//currencies/nft-worlds/                              ",
-    "https://coinmarketcap.com//currencies/helium/                                  ",
-    "https://coinmarketcap.com//currencies/mantra-dao/                              ",
-    "https://coinmarketcap.com//currencies/barnbridge/                              ",
-    "https://coinmarketcap.com//currencies/chromia/                                 ",
-    "https://coinmarketcap.com//currencies/teddydoge/                               ",
-    "https://coinmarketcap.com//currencies/sifchain/                                ",
-    "https://coinmarketcap.com//currencies/keystone-of-opportunity-knowledge/       ",
-    "https://coinmarketcap.com//currencies/thorchain/                               ",
-    "https://coinmarketcap.com//currencies/cellframe/                               ",
-    "https://coinmarketcap.com//currencies/gari/                                    ",
-    "https://coinmarketcap.com//currencies/creditcoin/                              ",
-    "https://coinmarketcap.com//currencies/thetan-arena/                            ",
-    "https://coinmarketcap.com//currencies/orion-protocol/                          ",
-    "https://coinmarketcap.com//currencies/sologenic/                               ",
-    "https://coinmarketcap.com//currencies/carry/                                   ",
-    "https://coinmarketcap.com//currencies/playermon/                               ",
-    "https://coinmarketcap.com//currencies/gifto/                                   ",
-    "https://coinmarketcap.com//currencies/dkargo/                                  ",
-    "https://coinmarketcap.com//currencies/convex-finance/                          ",
-    "https://coinmarketcap.com//currencies/metadium/                                ",
-    "https://coinmarketcap.com//currencies/ufo-gaming/                              ",
-    "https://coinmarketcap.com//currencies/bluzelle/                                ",
-    "https://coinmarketcap.com//currencies/rush-coin/                               ",
-    "https://coinmarketcap.com//currencies/auto/                                    ",
-    "https://coinmarketcap.com//currencies/deso/                                    ",
-    "https://coinmarketcap.com//currencies/genopets/                                ",
-    "https://coinmarketcap.com//currencies/vee-finance/                             ",
-    "https://coinmarketcap.com//currencies/shiden-network/                          ",
-    "https://coinmarketcap.com//currencies/silva-token/                             ",
-    "https://coinmarketcap.com//currencies/h2o-dao/                                 ",
-    "https://coinmarketcap.com//currencies/dydx/                                    ",
-    "https://coinmarketcap.com/                                                     ",
-    "https://coinmarketcap.com/cmc                                                  ",
-    "https://coinmarketcap.com//currencies/bepro-network/                           ",
-    "https://coinmarketcap.com//currencies/mirror-protocol/                         ",
-    "https://coinmarketcap.com//currencies/astar/                                   ",
-    "https://coinmarketcap.com//currencies/alpha-finance-lab/                       ",
-    "https://coinmarketcap.com//currencies/haven-protocol/                          ",
-    "https://coinmarketcap.com//currencies/polymath-network/                        ",
-    "https://coinmarketcap.com//currencies/floki-inu/                               ",
-    "https://coinmarketcap.com//currencies/wax/                                     ",
-    "https://coinmarketcap.com//currencies/qredo/                                   ",
-    "https://coinmarketcap.com//currencies/golem-network-tokens/                    ",
-    "https://coinmarketcap.com//currencies/sentinel-protocol/                       ",
-    "https://coinmarketcap.com//currencies/aergo/                                   ",
-    "https://coinmarketcap.com//currencies/tenset/                                  ",
-    "https://coinmarketcap.com//currencies/ooki-protocol/                           ",
-    "https://coinmarketcap.com//currencies/xcarnival/                               ",
-    "https://coinmarketcap.com//currencies/humanscape/                              ",
-    "https://coinmarketcap.com//currencies/bora/                                    ",
-    "https://coinmarketcap.com//currencies/thundercore/                             ",
-    "https://coinmarketcap.com//currencies/skale-network/                           ",
-    "https://coinmarketcap.com//currencies/steem/                                   ",
-    "https://coinmarketcap.com//currencies/terra-virtua-kolect/                     ",
-    "https://coinmarketcap.com//currencies/0x/                                      ",
-    "https://coinmarketcap.com//currencies/wootrade/                                ",
-    "https://coinmarketcap.com//currencies/router-protocol/                         ",
-    "https://coinmarketcap.com//currencies/pancake-games/                           ",
-    "https://coinmarketcap.com//currencies/tomb-shares/                             ",
-    "https://coinmarketcap.com//currencies/binaryx/                                 ",
-    "https://coinmarketcap.com//currencies/highstreet/                              ",
-    "https://coinmarketcap.com//currencies/ampleforth-governance-token/             ",
-    "https://coinmarketcap.com//currencies/maple/                                   ",
-    "https://coinmarketcap.com//currencies/pocket-network/                          ",
-    "https://coinmarketcap.com//currencies/zebec-protocol/                          ",
-    "https://coinmarketcap.com//currencies/fio-protocol/                            ",
-    "https://coinmarketcap.com//currencies/oasis-network/                           ",
-    "https://coinmarketcap.com//currencies/star-link/                               ",
-    "https://coinmarketcap.com//currencies/dad/                                     ",
-    "https://coinmarketcap.com//currencies/taraxa/                                  ",
-    "https://coinmarketcap.com//currencies/vempire-ddao/                            ",
-    "https://coinmarketcap.com//currencies/prometeus/                               ",
-    "https://coinmarketcap.com//currencies/position-exchange/                       ",
-    "https://coinmarketcap.com//currencies/block-ape-scissors/                      ",
-    "https://coinmarketcap.com//currencies/circuits-of-value/                       ",
-    "https://coinmarketcap.com//currencies/alpine-f1-team-fan-token/                ",
-    "https://coinmarketcap.com//currencies/3x-short-bitcoin-token/                  ",
-    "https://coinmarketcap.com//currencies/new-bitshares/                           ",
-    "https://coinmarketcap.com//currencies/sperax/                                  ",
-    "https://coinmarketcap.com//currencies/aion/                                    ",
-    "https://coinmarketcap.com//currencies/paribus/                                 ",
-    "https://coinmarketcap.com//currencies/everipedia/                              ",
-    "https://coinmarketcap.com//currencies/hegic/                                   ",
-    "https://coinmarketcap.com//currencies/streamr/                                 ",
-    "https://coinmarketcap.com//currencies/flex/                                    ",
-    "https://coinmarketcap.com//currencies/ac-milan-fan-token/                      ",
-    "https://coinmarketcap.com//currencies/cere-network/                            ",
-    "https://coinmarketcap.com//currencies/cream-finance/                           ",
-    "https://coinmarketcap.com//currencies/inverse-finance/                         ",
-    "https://coinmarketcap.com//currencies/nestree/                                 ",
-    "https://coinmarketcap.com//currencies/ariva/                                   ",
-    "https://coinmarketcap.com//currencies/digital-financial-exchange/              ",
-    "https://coinmarketcap.com//currencies/stratis/                                 ",
-    "https://coinmarketcap.com//currencies/klever/                                  ",
-    "https://coinmarketcap.com//currencies/saitama-inu/                             ",
-    "https://coinmarketcap.com//currencies/quiztok/                                 ",
-    "https://coinmarketcap.com//currencies/xcel-swap/                               ",
-    "https://coinmarketcap.com//currencies/dforce/                                  ",
-    "https://coinmarketcap.com//currencies/measurable-data-token/                   ",
-    "https://coinmarketcap.com//currencies/bobcoin/                                 ",
-    "https://coinmarketcap.com//currencies/fc-porto/                                ",
-    "https://coinmarketcap.com//currencies/the-force-protocol/                      ",
-    "https://coinmarketcap.com//currencies/adshares/                                ",
-    "https://coinmarketcap.com//currencies/beta-finance/                            ",
-
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
