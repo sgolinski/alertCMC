@@ -20,7 +20,10 @@ foreach ($arr as $coin) {
     $coin = trim($coin);
     if ($data[0] && $data[1] && $data[2]) {
         $token = new Coin($data[0], $data[2], $coin, $data[1]);
-        $crawler->returnArray[] = $token;
+        if (str_contains($data[1], 'bscscan')) {
+            echo $token->getName() . PHP_EOL;
+            $crawler->returnArray[] = $token;
+        }
     }
 }
 $crawler->getClient()->quit();

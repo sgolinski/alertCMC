@@ -13,12 +13,12 @@ class Coin
     private string $bscLink = '';
 
 
-    public function __construct($name, $percent,$cmcLink, $link)
+    public function __construct($name, $percent, $cmcLink, $bscLink)
     {
         $this->name = $name;
         $this->percent = (float)$percent;
         $this->cmcLink = $cmcLink;
-        $this->bscLink = $link;
+        $this->bscLink = $bscLink;
     }
 
     public function getName(): string
@@ -59,7 +59,7 @@ class Coin
             "Drop percent: " . $this->getPercent() . '%' . PHP_EOL .
             "Cmc: " . $this->getCmcLink() . PHP_EOL .
             "Poocoin:  " . $poocoin . PHP_EOL .
-             "Bsdscan: " . $this->bscLink;
+             "Bscscan: " . $this->bscLink;
 
 
     }

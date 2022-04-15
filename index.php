@@ -59,6 +59,7 @@ $crawler->getClient()->quit();
 if (count($crawler->returnArray) > 0) {
     file_put_contents('last_rounded_coins.txt', serialize($crawler->returnArray));
 }
+
 sleep(30);
 
 
